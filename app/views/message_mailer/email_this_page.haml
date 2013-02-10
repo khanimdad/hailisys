@@ -1,0 +1,10 @@
+ %html
+  %body
+    %p= @title
+    %p I came across this website <a href="http://dmsdesigns.co.in", style= "text-decoration:underline; color:#A7CC52;font-weight:bold;", onmouseover="this.style.textDecoration ='underline'", onmouseout="this.style.textDecoration='underline'">www.dmsdesigns.co.in</a> and thought it would be of interest to you.
+    -if @message == "Please enter your comments here"
+      %p
+    -else
+      -@sender_name = (@sender_name=='a visitor at our website' ? 'Sender of this message' : @sender_name)
+      = @sender_name + ' further says, "' + @message + '".'
+    %p Cheers!  
