@@ -1,0 +1,113 @@
+/* http://www.shikshadarpan.com */
+*{margin:0px;padding:0px;border:0;}
+body {font:13px Verdana,Arial,Helvetica,sans-serif;background:white;}
+div, p, span, b, u, i, h1, h2, h3, h4, h5, h6 {overflow:hidden;}
+a{color:#0E4168;text-decoration:none;outline:none;}
+a:hover:{text-decoration:underline;}
+img{border:0;}
+/******* Colors ************/
+.black{color:#000000;}
+.dgrey{color:#333333;}
+.grey{color:#666666;}
+.lgrey{color:#999999;}
+.blue{color:#6390CC;}
+.red{color:#ff0000;}
+.dred{color:#CC3300;}
+.white{color:#fff;}
+.dgreen{color:#38761D;}
+.green{color:#6AA84F;}
+.mgreen{color:#93C47D;}
+.lgreen{color:#6AA84F;}
+.vlgreen{color:#B6D7A8;}
+/******* Positioning ************/
+.p-absolute {position:absolute;}
+.p-fixed {position:fixed;}
+.p-relative {position:relative;}
+.p-static {position:static;}
+/********** Font Sizes **********/
+.size-8{font-size:8px;}
+.size-9{font-size:9px;}
+.size-10{font-size:10px;}
+.size-11{font-size:11px;}
+.size-12{font-size:12px;}
+/********* Font Weights ********/
+.fw-bold {font-weight:bold;}
+.fw-normal {font-weight:normal;}
+/******** Text Aligns *********/
+.ta-left{text-align:left;}
+.ta-center{text-align:center;}
+.ta-right{text-align:right;}
+.ta-justify{text-align:justify;}
+.ta-underline{text-decoration:underline;}
+/*********** Border Style **********/
+.b-dotted{border:1px dotted;}
+.b-dashed{border:1px dashed;}
+.b-solid{border:1px solid;}
+/*********** Border Color ***********/
+.b-green{border-color:green;}
+.b-dgrey{border-color:#999999;}
+.b-grey{border-color:#cccccc;}
+.b-lgrey{border-color:#e6e6e6;}
+/*********** Margin ***********/
+.margin-2{margin:2px;}
+.margin-3{margin:3px;}
+.margin-4{margin:4px;}
+.margin-5{margin:5px;}
+.margin-10{margin:10px;}
+/*********** Padding ***********/
+.padding-2{padding:2px;}
+.padding-3{padding:3px;}
+.padding-4{padding:4px;}
+.padding-5{padding:5px;}
+.padding-6{padding:6px;}
+/*********** Float ***********/
+.fleft{float:left;}
+.fright{float:right;}
+.fclear{clear:both;}
+.o-auto{overflow:auto;}
+.m-auto{margin:0 auto;}
+/*********** Display ***********/
+.d-block{display:block;}
+.d-none{display:none;}
+
+/************** Header ****************/
+#top-header{background-color:#0E4168;height:95px;}
+#top-header-links{margin-top:27px;}
+#top-header-links ul li{ display:inline;padding:0px 9px;}
+#top-header-links li.lastlink{border:none;}
+#top-header-links ul li a{color:#ffffff;text-decoration:none;font-weight:bold;font-size:10px;text-transform:uppercase;letter-spacing: 1px;}
+#top-header-links ul li a:hover{text-decoration:underline;}
+#top-header-login{padding:10px 0px;}
+#top-header-login ul li{ display:inline;padding:0px 3px;}
+a.logo {background:url(../images/logo_s.png) 0px 0px no-repeat;width:185px;height:45px;display:block;}
+a.logo_header{background:url(../images/logo.png) 0px 0px no-repeat;width:287px;height:86px;display:block;position:relative;top:-10px;}
+.header{background:#ffffff;height:76px;margin:3px 0px;border-bottom:1px solid #DFDFDF;}
+
+/************** Body ****************/
+.container{width:80%;overflow:auto;position:relative;margin-top:10px;margin-bottom:10px;}
+.container-admin{background:#ffffff;border-left:1px solid #cccccc;border-right:1px solid #cccccc;padding:0px 10px 0px 10px;margin:0px 10px 0px 10px;}
+.container-admin ul li{margin:5px;display:inline;}
+.content{color: #222222;font-size: 15px;line-height: 20px;margin: 30px 0px 30px 16px;}
+.content a:hover{text-decoration:underline;color:#4F47ED}
+.column1{float:left;width:47%}
+.column2{float:right;width:45%}
+.tools{margin-left:96px;}
+.tools img:hover{border: 1px solid #0E4168;}
+.tools img{border: 1px solid transparent;margin-bottom:15px;}
+.devider{margin: 10px 0 20px 0;padding: 3px 0px 0px 0px;border-bottom: 1px solid lightgray;}
+.admin-links{background:#f2f2f2;padding:5px;border:1px solid #d6d6d6;margin:10px 0px 10px 0px;}
+#apporach ul{margin:0px 0px 20px 20px;list-style:disc outside none;}
+#apporach ul li{padding-bottom:5px;}
+#team ul{margin:0px 0px 20px 20px;list-style:disc outside none;}
+#team ul li{padding-bottom:5px;}
+
+/* Footer */
+.footer{border-top:1px solid #DFDFDF;padding:3px 0;font-size:10px;background:#0E4168;height:85px;}
+.footer div {display:block;margin-left:10px;}
+.footer ul{margin-top:34px;}
+.footer li {border-right:1px solid #DFDFDF;padding:0 10px;display:inline;}
+.footer li.lastlink{border:none;}
+.footer li a:hover{text-decoration:underline;}
+.footer li a{text-transform:uppercase;color:white;font-weight:bold;letter-spacing: 1px;}
+.compatable-info{color:gray;padding-top:4px;}
+.compatable-info a:hover{text-decoration:underline;}

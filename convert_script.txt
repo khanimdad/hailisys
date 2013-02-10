@@ -1,0 +1,66 @@
+mv contact_us.png contact_us.png
+mv DSC03192.JPG DSC03192.jpg
+mv DSC03211.JPG DSC03211.jpg
+mv DSC03244.JPG DSC03244.jpg
+mv DSC_1326.JPG DSC_1326.jpg
+mv DSC_1480.JPG DSC_1480.jpg
+mv DSC_1519.JPG DSC_1519.jpg
+mv DSC_1592.JPG DSC_1592.jpg
+mv DSC_6123.JPG DSC_6123.jpg
+mv DSC_6161.JPG DSC_6161.jpg 
+mv DSC_6180.JPG DSC_6180.jpg 
+mv DSC_6196.JPG DSC_6196.jpg 
+mv DSC_8065.JPG DSC_8065.jpg
+mv DSC_8801.JPG DSC_8801.jpg
+mv DSC_8866.JPG DSC_8866.jpg
+mv DSC_8872.JPG DSC_8872.jpg
+mv DSC_8909.JPG DSC_8909.jpg
+mv DSC_8915.JPG DSC_8915.jpg
+mv DSC_8932.JPG DSC_8932.jpg
+mv DSC_8937.JPG DSC_8937.jpg
+
+convert -resize "340x321>" -resample "300x300" DSC03192.JPG DSC03192.jpg
+convert -resize "340x321>" -resample "300x300" DSC03211.JPG DSC03211.jpg
+convert -resize "340x321>" -resample "300x300" DSC03244.JPG DSC03244.jpg
+convert -resize "340x321>" -resample "300x300" DSC_1326.JPG DSC_1326.jpg
+convert -resize "340x321>" -resample "300x300" DSC_1480.JPG DSC_1480.jpg
+convert -resize "340x321>" -resample "300x300" DSC_1519.JPG DSC_1519.jpg
+convert -resize "340x321>" -resample "300x300" DSC_1592.JPG DSC_1592.jpg
+convert -resize "340x321>" -resample "300x300" DSC_6123.JPG DSC_6123.jpg
+convert -resize "340x321>" -resample "300x300" DSC_6161.JPG DSC_6161.jpg 
+convert -resize "340x321>" -resample "300x300" DSC_6180.JPG DSC_6180.jpg 
+convert -resize "340x321>" -resample "300x300" DSC_6196.JPG DSC_6196.jpg 
+convert -resize "340x321>" -resample "300x300" DSC_8065.JPG DSC_8065.jpg
+convert -resize "340x321>" -resample "300x300" DSC_8801.JPG DSC_8801.jpg
+convert -resize "340x321>" -resample "300x300" DSC_8866.JPG DSC_8866.jpg
+convert -resize "340x321>" -resample "300x300" DSC_8872.JPG DSC_8872.jpg
+convert -resize "340x321>" -resample "300x300" DSC_8909.JPG DSC_8909.jpg
+convert -resize "340x321>" -resample "300x300" DSC_8915.JPG DSC_8915.jpg
+convert -resize "340x321>" -resample "300x300" DSC_8932.JPG DSC_8932.jpg
+convert -resize "340x321>" -resample "300x300" DSC_8937.JPG DSC_8937.jpg
+
+convert -resize "67x47>" -resample "300x300" AMAR_UJALA.jpg AMAR_UJALA.jpg
+convert -resize "67x47>" -resample "300x300" ANALEC.jpg ANALEC.jpg
+convert -resize "67x47>" -resample "300x300" Arctech.jpg Arctech.jpg
+convert -resize "67x47>" -resample "300x300" CITRIX.jpg CITRIX.jpg
+convert -resize "67x47>" -resample "300x300" DGH.jpg DGH.jpg
+convert -resize "67x47>" -resample "300x300" DPS_GWALIOR.jpg DPS_GWALIOR.jpg
+convert -resize "67x47>" -resample "300x300" ENGINEERS_INDIA.jpg ENGINEERS_INDIA.jpg
+convert -resize "67x47>" -resample "300x300" ESSILOR.jpg ESSILOR.jpg
+convert -resize "67x47>" -resample "300x300" GIVAUDAN.jpg GIVAUDAN.jpg
+convert -resize "67x47>" -resample "300x300" HCL.jpg HCL.jpg
+convert -resize "67x47>" -resample "300x300" HERO_HONDA.jpg HERO_HONDA.jpg 
+convert -resize "67x47>" -resample "300x300" ICICI_LOMBARD.jpg ICICI_LOMBARD.jpg
+convert -resize "67x47>" -resample "300x300" JKT.jpg JKT.jpg
+convert -resize "67x47>" -resample "300x300" __.jpg __.jpg 
+convert -resize "67x47>" -resample "300x300" NEC.jpg NEC.jpg
+convert -resize "67x47>" -resample "300x300" NIIT.jpg NIIT.jpg
+convert -resize "67x47>" -resample "300x300" PEARSON.jpg PEARSON.jpg
+convert -resize "67x47>" -resample "300x300" POWERGRID.jpg POWERGRID.jpg
+convert -resize "67x47>" -resample "300x300" SAKSOFT.jpg SAKSOFT.jpg
+convert -resize "67x47>" -resample "300x300" SANDVIK.jpg SANDVIK.jpg
+convert -resize "67x47>" -resample "300x300" SSW.jpg SSW.jpg
+convert -resize "67x47>" -resample "300x300" ST.jpg ST.jpg
+convert -resize "67x47>" -resample "300x300" UTI.jpg UTI.jpg
+convert -resize "67x47>" -resample "300x300" WUNDERMAN.jpg WUNDERMAN.jpg
+
